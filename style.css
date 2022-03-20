@@ -1,0 +1,57 @@
+/* google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+    /* font-size: 18px; */
+}
+
+#menubar{
+    font-weight: bold;
+    
+}
+
+span{
+    color: orangered;
+}
+
+.carousel-caption{
+    margin-bottom: 150px;
+    background-color: black;
+    opacity: .7;
+    border-radius: 5px;
+    box-shadow: 5px 5px 14px ;
+}
+
+.carousel-caption h5{
+    font-size: 92px;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px ;
+}
+
+/* about */
+#about{
+    margin-top: 5%;
+}
+
+.aboutTitle{
+    font-size: 4em;
+    font-weight: bold;
+}
+
+.aboutText{
+    padding-right: 5%;
+}
+
+.aboutText h1{
+    font-size: 2em;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.aboutText p{
+    font-size: 14px;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    text-align: justify;
+}
