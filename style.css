@@ -1,26 +1,29 @@
 /* google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,600&family=Poppins:ital,wght@0,400;1,600&display=swap');
 
 body{
     font-family: 'Poppins', sans-serif;
-    /* font-size: 18px; */
+    font-size: 16px;
 }
 
+/* navbar */
 #menubar{
     font-weight: bold;
-    
+    font-family: 'Lora', serif;
 }
 
 span{
     color: orangered;
 }
 
+/* banner */
 .carousel-caption{
     margin-bottom: 150px;
     background-color: black;
     opacity: .7;
     border-radius: 5px;
-    box-shadow: 5px 5px 14px ;
+    box-shadow: 3px 3px 14px black;
 }
 
 .carousel-caption h5{
@@ -45,8 +48,8 @@ span{
 
 .aboutText h1{
     font-size: 2em;
-    font-weight: 700;
-    font-style: italic;
+    font-weight: bold;
+    font-family: 'Lora', serif;
 }
 
 .aboutText p{
@@ -54,4 +57,45 @@ span{
     color: black;
     font-family: 'Poppins', sans-serif;
     text-align: justify;
+}
+
+.aboutBtn{
+    color: orangered;
+}
+
+.aboutBtn:hover{
+    background-color: orangered;
+    color: white;
+}
+
+.aboutImg{
+    width: 100%;
+    transition: transform .5s ease-in-out;
+}
+
+.aboutImg:hover{
+    transform: scale(1.05);
+}
+
+/* products */
+.card{
+    border: none;
+    box-sizing: border-box;
+    box-shadow: .5px .5px 5px .5px;
+    transition: box-shadow .5s ease-in-out;
+}
+
+.card:hover{
+    box-shadow: .5px .5px 20px .5px;
+}
+
+.productBtn{
+    border: 1px solid orangered;
+    color: orangered;
+    transition: background-color 1s ease-in-out;
+}
+
+.productBtn:hover{
+    background-color: orangered;
+    color: white;
 }
