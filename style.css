@@ -8,9 +8,14 @@ body{
 }
 
 /* navbar */
+#navbar{
+    background-color: rgb(48, 47, 47);
+}
+
 #menubar{
     font-weight: bold;
     font-family: 'Lora', serif;
+    
 }
 
 span{
@@ -98,4 +103,10 @@ span{
 .productBtn:hover{
     background-color: orangered;
     color: white;
+}
+
+.card-title{
+    font-family: 'Lora', serif;
+    font-weight: bold;
+    font-size: 1.5em;
 }
