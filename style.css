@@ -97,7 +97,7 @@ span{
 .productBtn{
     border: 1px solid orangered;
     color: orangered;
-    transition: background-color 1s ease-in-out;
+    transition: background-color .5s ease-in-out;
 }
 
 .productBtn:hover{
@@ -110,3 +110,36 @@ span{
     font-weight: bold;
     font-size: 1.5em;
 }
+
+/* services */
+
+.serviceTextDiv{
+    position: absolute;
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    opacity: .7;
+    /* display: none; */
+}
+
+.serviceTitle{
+    font-family: 'Lora', serif;
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    margin-top: 15%;
+}
+
+.serviceText{
+    text-align: center;
+    color: white;
+    font-size: 12px;
+    padding: 5%;
+    transition: transform 1s ease-in-out;
+    /* transition: opacity 5s ease-in-out; */
+}
+
+.serviceTextDiv:hover .serviceText{
+    transform: scale(1.1);
+}
+
