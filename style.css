@@ -143,3 +143,12 @@ span{
     transform: scale(1.1);
 }
 
+/* gellary */
+.gellaryImg{
+    transition: transform 1s ease-in-out;
+}
+
+.gellaryImg:hover{
+    transform: rotate(2deg);
+    box-shadow: 2px 2px 5px ;
+}
