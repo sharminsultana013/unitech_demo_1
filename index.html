@@ -9,6 +9,8 @@
   <!-- bootstrap css cdn -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <!-- second carousel jquery -->
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <!-- css -->
   <link rel="stylesheet" href="style.css">
 </head>
@@ -55,13 +57,13 @@
   <!-- banner -->
   <section id="banner">
     <!-- caarousel -->
-    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+    <div id="carouselExampleCaptionsOne" class="carousel slide" data-bs-ride="carousel">
       <div class="carousel-indicators" style="margin-bottom: 50px;">
-        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+        <button type="button" data-bs-target="#carouselExampleCaptionsOne" data-bs-slide-to="0" class="active"
           aria-current="true" aria-label="Slide 1"></button>
-        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+        <button type="button" data-bs-target="#carouselExampleCaptionsOne" data-bs-slide-to="1"
           aria-label="Slide 2"></button>
-        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+        <button type="button" data-bs-target="#carouselExampleCaptionsOne" data-bs-slide-to="2"
           aria-label="Slide 3"></button>
       </div>
       <div class="carousel-inner" style="height: 100vh;">
@@ -88,12 +90,12 @@
         </div>
       </div>
       <button class="carousel-control-prev" style="margin-bottom: 150px;" type="button"
-        data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        data-bs-target="#carouselExampleCaptionsOne" data-bs-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Previous</span>
       </button>
       <button class="carousel-control-next" style="margin-bottom: 150px;" type="button"
-        data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        data-bs-target="#carouselExampleCaptionsOne" data-bs-slide="next">
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Next</span>
       </button>
@@ -131,7 +133,7 @@
   <section id="products" class="my-5">
     <h1 class="aboutTitle text-center my-5"><span>O</span>ur <span>P</span>roducts</h1>
     <div class="container product">
-      <div class="row row-cols-1 row-cols-md-3 g-4">
+      <div class="row row-cols-1 row-cols-lg-3 row-cols-md-2 g-4">
         <div class="col">
           <div class="card h-100 p-3">
             <img src="products/1.jpg" width="100%" height="320vh" class="card-img-top" alt="">
@@ -224,7 +226,8 @@
             <img src="service/1.jpg" class="card-img-top serviceImg" alt="">
             <div class="serviceTextDiv">
               <p class="serviceTitle">Service Name</p>
-              <p class="serviceText">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corrupti saepe maiores at reprehenderit placeat quibusdam quisquam exercitationem ipsum dolorum molestiae.</p>
+              <p class="serviceText">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corrupti saepe maiores at
+                reprehenderit placeat quibusdam quisquam exercitationem ipsum dolorum molestiae.</p>
             </div>
           </div>
         </div>
@@ -233,7 +236,8 @@
             <img src="service/2.png" class="card-img-top serviceImg" alt="...">
             <div class="serviceTextDiv">
               <p class="serviceTitle">Service Name</p>
-              <p class="serviceText">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corrupti saepe maiores at reprehenderit placeat quibusdam quisquam exercitationem ipsum dolorum molestiae.</p>
+              <p class="serviceText">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corrupti saepe maiores at
+                reprehenderit placeat quibusdam quisquam exercitationem ipsum dolorum molestiae.</p>
             </div>
           </div>
         </div>
@@ -242,7 +246,8 @@
             <img src="service/3.jpg" class="card-img-top serviceImg" alt="">
             <div class="serviceTextDiv">
               <p class="serviceTitle">Service Name</p>
-              <p class="serviceText">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corrupti saepe maiores at reprehenderit placeat quibusdam quisquam exercitationem ipsum dolorum molestiae.</p>
+              <p class="serviceText">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corrupti saepe maiores at
+                reprehenderit placeat quibusdam quisquam exercitationem ipsum dolorum molestiae.</p>
             </div>
           </div>
         </div>
@@ -251,7 +256,8 @@
             <img src="service/4.jpg" class="card-img-top serviceImg" alt="">
             <div class="serviceTextDiv">
               <p class="serviceTitle">Service Name</p>
-              <p class="serviceText">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corrupti saepe maiores at reprehenderit placeat quibusdam quisquam exercitationem ipsum dolorum molestiae.</p>
+              <p class="serviceText">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corrupti saepe maiores at
+                reprehenderit placeat quibusdam quisquam exercitationem ipsum dolorum molestiae.</p>
             </div>
           </div>
         </div>
@@ -266,67 +272,67 @@
     <div class="container gallery">
       <div class="row">
         <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
-          <a href="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp" target="blank">
-            <img
-            src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp"
-            class="w-100 shadow-1-strong rounded mb-4 gellaryImg"
-            alt="Boat on Calm Water"
-          />
+          <a href="gallery/1.webp" target="blank">
+            <img src="gallery/1.webp" class="w-100 shadow-1-strong rounded mb-4 gellaryImg" alt="..." />
           </a>
-      
-          <a href="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain1.webp" target="blank">
-            <img
-            src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain1.webp"
-            class="w-100 shadow-1-strong rounded mb-4 gellaryImg"
-            alt="Wintry Mountain Landscape"
-          />
+
+          <a href="gallery/2.webp" target="blank">
+            <img src="gallery/2.webp" class="w-100 shadow-1-strong rounded mb-4 gellaryImg" alt="..." />
           </a>
         </div>
-      
+
         <div class="col-lg-4 mb-4 mb-lg-0">
-          <a href="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain2.webp" target="blank">
-            <img
-            src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain2.webp"
-            class="w-100 shadow-1-strong rounded mb-4 gellaryImg"
-            alt="Mountains in the Clouds"
-          />
+          <a href="gallery/3.webp" target="blank">
+            <img src="gallery/3.webp" class="w-100 shadow-1-strong rounded mb-4 gellaryImg" alt="..." />
           </a>
-      
-          <a href="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp" target="blank">
-            <img
-            src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp"
-            class="w-100 shadow-1-strong rounded mb-4 gellaryImg"
-            alt="Boat on Calm Water"
-          />
+
+          <a href="gallery/1.webp" target="blank">
+            <img src="gallery/1.webp" class="w-100 shadow-1-strong rounded mb-4 gellaryImg" alt="..." />
           </a>
         </div>
-      
+
         <div class="col-lg-4 mb-4 mb-lg-0">
-          <a href="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(18).webp" target="blank">
-            <img
-            src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(18).webp"
-            class="w-100 shadow-1-strong rounded mb-4 gellaryImg"
-            alt="Waves at Sea"
-          />
+          <a href="gallery/5.webp" target="blank">
+            <img src="gallery/5.webp" class="w-100 shadow-1-strong rounded mb-4 gellaryImg" alt="..." />
           </a>
-      
-          <a href="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain3.webp" target="blank">
-            <img
-            src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain3.webp"
-            class="w-100 shadow-1-strong rounded mb-4 gellaryImg"
-            alt="Yosemite National Park"
-          />
+
+          <a href="gallery/5.webp" target="blank">
+            <img src="gallery/4.webp" class="w-100 shadow-1-strong rounded mb-4 gellaryImg" alt="..." />
           </a>
         </div>
       </div>
     </div>
   </section>
+  <!-- end gallery -->
+
+  <!-- Partners -->
+  <section id="partner" class="my-5">
+    <h1 class="aboutTitle text-center p-1 mb-5"><span>O</span>ur <span>P</span>artners</h1>
+    <div class="container partner">
+      <section class="customer-logos slider ">
+        <div class="slide"><img src="https://image.freepik.com/free-vector/luxury-letter-e-logo-design_1017-8903.jpg">
+        </div>
+        <div class="slide"><img src="https://image.freepik.com/free-vector/3d-box-logo_1103-876.jpg"></div>
+        <div class="slide"><img src="https://image.freepik.com/free-vector/blue-tech-logo_1103-822.jpg"></div>
+        <div class="slide"><img src="https://image.freepik.com/free-vector/colors-curl-logo-template_23-2147536125.jpg">
+        </div>
+        <div class="slide"><img src="https://image.freepik.com/free-vector/abstract-cross-logo_23-2147536124.jpg"></div>
+        <div class="slide"><img src="https://image.freepik.com/free-vector/football-logo-background_1195-244.jpg"></div>
+        <div class="slide"><img src="https://image.freepik.com/free-vector/background-of-spots-halftone_1035-3847.jpg">
+        </div>
+      </section>
+    </div>
+  </section>
 
 
+  <!-- js -->
+  <script src="script.js"></script>
   <!-- bootstrap js cdn -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
     crossorigin="anonymous"></script>
+  <!-- second carousel js -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
 </body>
 
 </html>
