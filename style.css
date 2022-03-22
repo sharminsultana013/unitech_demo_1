@@ -153,9 +153,8 @@ span{
     box-shadow: 2px 2px 5px ;
 }
 
+/* our clients */
 /* second slider */
-/* Slider */
-
 .slick-slide {
     margin: 0px 20px;
 }
@@ -270,4 +269,5 @@ span{
 .slick-arrow.slick-hidden {
     display: none;
 }
-
+/* end second slider */
+/* end our clients */

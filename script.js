@@ -1,5 +1,7 @@
+// second slider js code
+
 $(document).ready(function(){
-    $('.customer-logos').slick({
+    $('.client-logos').slick({
         slidesToShow: 6,
         slidesToScroll: 1,
         autoplay: true,
