@@ -164,6 +164,34 @@ span{
     box-shadow: 2px 2px 5px ;
 }
 
+/* speech */
+.speechBg{
+    background-color: rgb(215, 208, 255);
+}
+
+.clientName{
+    font-family: 'Lora', serif;
+    font-weight: 700px;
+    color: black;
+}
+
+.clientSpeech{
+    font-size: 13px;
+    color: black;
+}
+
+.clientimage{
+    width: 80px; 
+    height: 120px;
+    transition: transform 1s ease-in-out;
+}
+
+.clientimage:hover{
+    transform: scale(1.2);
+}
+
+
+
 /* our clients */
 /* second slider */
 .slick-slide {
