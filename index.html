@@ -18,11 +18,14 @@
 <body>
 
   <!-- navbar -->
-  <section id="menubar">
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="navbar">
+  <section id="menubar" class="">
+    <nav class="navbar navbar-expand-lg fixed-top shadow p-1 mb-5 bg-body" id="navbar">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#"
-          style="padding-left: 2em; font-size: 30px; color: white;"><span>U</span>nitech<span>L</span>abel</a>
+        <!-- <a class="navbar-brand" href="#"
+          style="padding-left: 2em; font-size: 30px; color: white;"><span>U</span>nitech<span>L</span>abel</a> -->
+        <a class="navbar-brand" href="#" style="padding-left: 3em; ">
+          <img src="logo/logo.png" style="width:90px; height:50px" alt="">
+        </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
           aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -30,22 +33,22 @@
         <div class="collapse navbar-collapse" id="navbarNav" style="margin-left: 40%;">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link active" style="color: white;" aria-current="page" href="#">Home</a>
+              <a class="nav-link active menuItem" aria-current="page" href="#">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" style="color: white;" aria-current="page" href="#about">About Us</a>
+              <a class="nav-link active menuItem" aria-current="page" href="#about">About Us</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" style="color: white;" aria-current="page" href="#products">Products</a>
+              <a class="nav-link active menuItem" aria-current="page" href="#products">Products</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" style="color: white;" aria-current="page" href="#services">Services</a>
+              <a class="nav-link active menuItem" aria-current="page" href="#services">Services</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" style="color: white;" aria-current="page" href="#gallery">Gallery</a>
+              <a class="nav-link active menuItem" aria-current="page" href="#gallery">Gallery</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" style="color: white;" aria-current="page" href="#">Contact Us</a>
+              <a class="nav-link active menuItem" aria-current="page" href="#">Contact Us</a>
             </li>
           </ul>
         </div>
@@ -105,7 +108,7 @@
   <!-- end banner -->
 
   <!-- About -->
-  <section id="about">
+  <section id="about" style="padding: 1% 5%;">
     <h1 class="aboutTitle text-center my-5"><span>A</span>bout <span>U</span>s</h1>
     <div class="container my-5">
       <div class="row">
@@ -118,7 +121,7 @@
               nesciunt saepe aut autem id architecto numquam iusto non deleniti vitae, nihil exercitationem dolores cum.
               Dolor ab sapiente recusandae possimus?</p>
 
-            <button type="button" class="aboutBtn btn mb-5" style="border: 1px solid orangered">Learn More</button>
+            <button type="button" class="aboutBtn btn mb-5" style="border: 1px solid rgb(33, 6, 189)">Learn More</button>
           </div>
         </div>
         <div class="col-lg-6">
@@ -130,7 +133,7 @@
   <!-- end about -->
 
   <!-- Our Products -->
-  <section id="products" class="my-5">
+  <section id="products" class="my-5" style="padding: 0 5%;">
     <h1 class="aboutTitle text-center my-5"><span>O</span>ur <span>P</span>roducts</h1>
     <div class="container product">
       <div class="row row-cols-1 row-cols-lg-3 row-cols-md-2 g-4">
@@ -217,7 +220,7 @@
   </section>
 
   <!-- Our Services -->
-  <section id="services" class="my-5" style="padding: 2% 5%;">
+  <section id="services" class="my-5" style="padding: 1% 5%;">
     <h1 class="aboutTitle text-center my-5"><span>O</span>ur <span>S</span>ervices</h1>
     <div class="service p-3">
       <div class="row row-cols-1 row-cols-md-2 g-3">
@@ -267,7 +270,7 @@
   <!-- end our services -->
 
   <!-- Gallery -->
-  <section id="gallery" class="my-5">
+  <section id="gallery" class="my-5" style="padding: 1% 5%;">
     <h1 class="aboutTitle text-center my-5"><span>G</span>ellary</h1>
     <div class="container gallery">
       <div class="row">
@@ -306,8 +309,8 @@
   <!-- end gallery -->
 
   <!-- Clients -->
-  <section id="client" class="my-5">
-    <h1 class="aboutTitle text-center p-1 mb-5"><span>O</span>ur <span>P</span>artners</h1>
+  <section id="client" class="my-5" style="padding: 1% 5%;">
+    <h1 class="aboutTitle text-center p-1 mb-5"><span>O</span>ur <span>C</span>lients</h1>
     <div class="container client">
       <section class="client-logos slider ">
         <div class="slide"><img src="clients/1.webp">

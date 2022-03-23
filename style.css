@@ -9,17 +9,27 @@ body{
 
 /* navbar */
 #navbar{
-    background-color: rgb(48, 47, 47);
+    /* background-color: rgb(48, 47, 47); */
+    background-color: white;
 }
 
 #menubar{
     font-weight: bold;
     font-family: 'Lora', serif;
-    
+}
+
+.menuItem{
+    color: rgb(33, 6, 189); 
+    font-weight: bold; 
+    font-size: 1.1em;
+}
+
+.menuItem:hover{
+    color: red;
 }
 
 span{
-    color: orangered;
+    color: rgb(33, 6, 189);
 }
 
 /* banner */
@@ -45,6 +55,7 @@ span{
 .aboutTitle{
     font-size: 4em;
     font-weight: bold;
+    font-family: 'Lora', serif;
 }
 
 .aboutText{
@@ -65,11 +76,11 @@ span{
 }
 
 .aboutBtn{
-    color: orangered;
+    color: rgb(33, 6, 189);
 }
 
 .aboutBtn:hover{
-    background-color: orangered;
+    background-color: rgb(33, 6, 189);
     color: white;
 }
 
@@ -95,13 +106,13 @@ span{
 }
 
 .productBtn{
-    border: 1px solid orangered;
-    color: orangered;
+    border: 1px solid rgb(33, 6, 189);
+    color: rgb(33, 6, 189);
     transition: background-color .5s ease-in-out;
 }
 
 .productBtn:hover{
-    background-color: orangered;
+    background-color: rgb(33, 6, 189);
     color: white;
 }
 
