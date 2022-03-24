@@ -19,7 +19,7 @@ body{
 }
 
 .menuItem{
-    color: rgb(33, 6, 189); 
+    color: #2E3192; 
     font-weight: bold; 
     font-size: 1.1em;
 }
@@ -29,7 +29,7 @@ body{
 }
 
 span{
-    color: rgb(33, 6, 189);
+    color: #2E3192;
 }
 
 /* banner */
@@ -76,11 +76,11 @@ span{
 }
 
 .aboutBtn{
-    color: rgb(33, 6, 189);
+    color: #2E3192;
 }
 
 .aboutBtn:hover{
-    background-color: rgb(33, 6, 189);
+    background-color: #2E3192;
     color: white;
 }
 
@@ -106,13 +106,13 @@ span{
 }
 
 .productBtn{
-    border: 1px solid rgb(33, 6, 189);
-    color: rgb(33, 6, 189);
+    border: 1px solid #2E3192;
+    color: #2E3192;
     transition: background-color .5s ease-in-out;
 }
 
 .productBtn:hover{
-    background-color: rgb(33, 6, 189);
+    background-color: #2E3192;
     color: white;
 }
 
