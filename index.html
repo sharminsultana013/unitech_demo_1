@@ -11,6 +11,8 @@
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <!-- second carousel jquery -->
   <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <!-- fontawesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
   <!-- css -->
   <link rel="stylesheet" href="style.css">
 </head>
@@ -30,31 +32,34 @@
           aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNav" style="margin-left: 30%;">
+        <div class="collapse navbar-collapse" id="navbarNav" style="margin-left: 20%;">
           <ul class="navbar-nav">
             <li class="nav-item">
               <a class="nav-link active menuItem" aria-current="page" href="#">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active menuItem" aria-current="page" href="#about">About Us</a>
+              <a class="nav-link  menuItem" aria-current="page" href="#about">About Us</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active menuItem" aria-current="page" href="#products">Products</a>
+              <a class="nav-link  menuItem" aria-current="page" href="#products">Products</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active menuItem" aria-current="page" href="#services">Services</a>
+              <a class="nav-link  menuItem" aria-current="page" href="#services">Services</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active menuItem" aria-current="page" href="#gallery">Gallery</a>
+              <a class="nav-link  menuItem" aria-current="page" href="#gallery">Gallery</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active menuItem" aria-current="page" href="#slider">Our Team</a>
+              <a class="nav-link  menuItem" aria-current="page" href="#slider">Our Team</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active menuItem" aria-current="page" href="#client">Our Clients</a>
+              <a class="nav-link  menuItem" aria-current="page" href="#client">Our Clients</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active menuItem" aria-current="page" href="#">Contact Us</a>
+              <a class="nav-link  menuItem" aria-current="page" href="#contact">Contact Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link  menuItem" aria-current="page" href="#">Our Profile</a>
             </li>
           </ul>
         </div>
@@ -399,13 +404,105 @@
   <!-- end clients -->
 
   <!-- contact us -->
-    <section id="contact">
-      <div class="container contact"></div>
-    </section>
+  <section id="contact" class="my-5">
+    <h1 class="aboutTitle text-center p-5"><span>C</span>ontact <span>U</span>s</h1>
+    <div class="container contact p-3">
+      <!--Section: Contact v.2-->
+      <section class="mb-4">
+        <!--Section description-->
+
+        <div class="row">
+
+          <!--Grid column-->
+          <div class="col-md-9 mb-md-0 mb-5">
+            <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+
+              <!--Grid row-->
+              <div class="row">
+
+                <!--Grid column-->
+                <div class="col-md-6">
+                  <div class="form-floating mb-3">
+                    <input type="name" class="form-control" id="floatingInput" placeholder="name@example.com">
+                    <label class="contactText" for="floatingInput">Name</label>
+                  </div>
+                </div>
+                <!--Grid column-->
+
+                <!--Grid column-->
+                <div class="col-md-6">
+                  <div class="form-floating mb-3">
+                    <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                    <label class="contactText" for="floatingInput">Email address</label>
+                  </div>
+                </div>
+                <!--Grid column-->
+
+              </div>
+              <!--Grid row-->
+
+              <!--Grid row-->
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="form-floating mb-3">
+                    <input type="subject" class="form-control" id="floatingInput" placeholder="name@example.com">
+                    <label class="contactText" for="floatingInput">Subject</label>
+                  </div>
+                </div>
+              </div>
+              <!--Grid row-->
+
+              <!--Grid row-->
+              <div class="row">
+
+                <!--Grid column-->
+                <div class="col-md-12">
+
+                  <div class="form-floating mb-3">
+                    <input type="message" class="form-control" id="floatingInput" placeholder="name@example.com">
+                    <label class="contactText" for="floatingInput">Your Message</label>
+                  </div>
+
+                </div>
+              </div>
+              <!--Grid row-->
+
+              <div class="text-md-left">
+                <a class="btn contactBtn" type="submit">Send</a>
+              </div>
+          </div>
+
+          </form>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-md-3 text-center">
+            <ul class="list-unstyled mb-0">
+              <li class="contactList"><i class="fas fa-map-marker-alt fa-2x contactIcon"></i>
+                <p>Shimultola, Ashulia, Dhaka, Bangladesh</p>
+              </li>
+
+              <li class="contactList"><i class="fas fa-phone mt-4 fa-2x contactIcon"></i>
+                <p>+ 01 234 567 89</p>
+              </li>
+
+              <li class="contactList"><i class="fas fa-envelope mt-4 fa-2x contactIcon"></i>
+                <p>abc@gmail.com</p>
+              </li>
+            </ul>
+          </div>
+          <!--Grid column-->
+
+        </div>
+
+      </section>
+      <!--Section: Contact v.2-->
+    </div>
+  </section>
   <!-- end contact us -->
 
   <!-- footer -->
-  <section id="footer" 
+  <section id="footer"
     style="background-image: linear-gradient(to bottom, #2E3192, #040636); color: white; overflow-x: hidden;">
     <p class="text-center p-3">© 2022 Unitech Label & Tag. All rights reserved. </p>
   </section>

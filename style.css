@@ -191,6 +191,41 @@ span{
 }
 /* end speech */
 
+/* contact */
+.contact{
+    box-shadow: 1px 1px 10px 1px rgb(161, 159, 159);
+    border-radius: 5px;
+    transition: box-shadow 1s ease-in-out;
+}
+
+.contact:hover{
+    box-shadow: 1px 1px 10px 1px rgb(110, 110, 110);
+}
+
+.contactBtn{
+    border: 1px solid #2E3192;
+    color: #2E3192;
+}
+
+.contactBtn:hover{
+    background-color:#2E3192;
+    color: white;
+}
+
+.contactText{
+    font-family: 'Lora', serif;
+    color: rgb(87, 84, 84);
+}
+.contactIcon{
+    color: #2E3192;
+    transition: transform 1s ease-in;
+}
+
+.contactList:hover .contactIcon{
+    transform: rotate(360deg);
+}
+
+
 /* our clients */
 /* second slider */
 .slick-slide {
