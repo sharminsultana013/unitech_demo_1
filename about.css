@@ -1,6 +1,26 @@
 body{
     background-color: white;
+    overflow-x: hidden;
 }
+
+/* #aboutBanner{
+    background-image: url(about/1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+} */
+
+.aboutPageTitle{
+    z-index: 1;
+    position: relative;
+    margin-top: 20%;
+    font-size: 4em;
+    font-weight: bold;
+    font-family: 'Lora', serif;
+    color: white;
+}
+
 #about{
     background-color: white;
     margin-top: 50%;
@@ -13,4 +33,8 @@ body{
 
 .contact:hover{
     box-shadow: none;
+}
+
+.footerText{
+    padding: 2% 0 1% 0;
 }
