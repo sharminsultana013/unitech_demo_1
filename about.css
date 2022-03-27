@@ -1,0 +1,16 @@
+body{
+    background-color: white;
+}
+#about{
+    background-color: white;
+    margin-top: 50%;
+}
+
+.contact{
+    background-color: white;
+    box-shadow: none;
+}
+
+.contact:hover{
+    box-shadow: none;
+}

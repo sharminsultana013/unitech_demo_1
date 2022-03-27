@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>UnitechLabel</title>
+  <!-- bootstrap css cdn -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <!-- second carousel jquery -->
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <!-- fontawesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+  <!-- css -->
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="about.css">
+</head>
+
+<body>
+
+  <!-- navbar -->
+  <section id="menubar" class="">
+    <nav class="navbar navbar-expand-lg fixed-top shadow p-1 mb-5 bg-body" id="navbar">
+      <div class="container-fluid">
+        <!-- <a class="navbar-brand" href="#"
+          style="padding-left: 2em; font-size: 30px; color: white;"><span>U</span>nitech<span>L</span>abel</a> -->
+        <a class="navbar-brand" href="#" style="padding-left: 3em; ">
+          <img src="logo/logo.png" style="width:90px; height:50px" alt="">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav" style="margin-left: 50%;">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active menuItem" aria-current="page" href="index.html">Go Back to Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link  menuItem" aria-current="page" href="#contact">Contact Us</a>
+              </li>
+            <li class="nav-item">
+                <a class="nav-link active menuItem" aria-current="page" href="#">Our Profile</a>
+              </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </section>
+  <!-- end navbar -->
+
+  <!-- about banner -->
+  <section id="aboutBanner" style="z-index: 0;">
+      <div class="aboutPageBanner">
+          <div class="row">
+              <div class="col-lg-12">
+                  <img src="about/1.jpg" alt="" style="width: 100%; position: fixed; z-index: 0;">
+              </div>
+          </div>
+      </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" style="padding: 1% 5%; z-index: 1; position: relative;">
+    <h1 class="aboutTitle text-center my-5"><span>A</span>bout <span>U</span>s</h1>
+    <div class="container my-5">
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="aboutText">
+            <h1>Lorem Ipsum Dolor</h1>
+            <p class="my-4 mb-5">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum voluptates nesciunt
+              saepe aut autem id architecto numquam iusto non deleniti vitae, nihil exercitationem dolores cum. Dolor ab
+              sapiente recusandae possimus? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum voluptates
+              nesciunt saepe aut autem id architecto numquam iusto non deleniti vitae, nihil exercitationem dolores cum.
+              Dolor ab sapiente recusandae possimus?</p>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <img class="aboutImg" src="slider/9.jpg" alt="">
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end about -->
+
+
+  <!-- contact us -->
+  <section id="contact" class="my-5" style="position: relative;">
+    <h1 class="aboutTitle text-center p-5"><span>C</span>ontact <span>U</span>s</h1>
+    <div class="container contact p-3">
+      <!--Section: Contact v.2-->
+      <section class="mb-4">
+        <!--Section description-->
+
+        <div class="row">
+          <!--Grid column-->
+          <div class="col-md-9 mb-md-0 mb-5">
+            <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+
+              <!--Grid row-->
+              <div class="row">
+                <!--Grid column-->
+                <div class="col-md-6">
+                  <div class="form-floating mb-3">
+                    <input type="name" class="form-control" id="floatingInput" placeholder="name@example.com">
+                    <label class="contactText" for="floatingInput">Name</label>
+                  </div>
+                </div>
+                <!--Grid column-->
+
+                <!--Grid column-->
+                <div class="col-md-6">
+                  <div class="form-floating mb-3">
+                    <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                    <label class="contactText" for="floatingInput">Email address</label>
+                  </div>
+                </div>
+                <!--Grid column-->
+              </div>
+              <!--Grid row-->
+
+              <!--Grid row-->
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="form-floating mb-3">
+                    <input type="subject" class="form-control" id="floatingInput" placeholder="name@example.com">
+                    <label class="contactText" for="floatingInput">Subject</label>
+                  </div>
+                </div>
+              </div>
+              <!--Grid row-->
+
+              <!--Grid row-->
+              <div class="row">
+                <!--Grid column-->
+                <div class="col-md-12">
+                  <div class="form-floating mb-3">
+                    <input type="message" class="form-control" id="floatingInput" placeholder="name@example.com">
+                    <label class="contactText" for="floatingInput">Your Message</label>
+                  </div>
+                </div>
+              </div>
+              <!--Grid row-->
+              <div class="text-md-left">
+                <a class="btn contactBtn" type="submit">Send</a>
+              </div>
+          </div>
+          </form>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-md-3 text-center">
+            <ul class="list-unstyled mb-0">
+              <li class="contactList"><i class="fas fa-map-marker-alt fa-2x contactIcon"></i>
+                <p>Shimultola, Ashulia, Dhaka, Bangladesh</p>
+              </li>
+              <li class="contactList"><i class="fas fa-phone mt-4 fa-2x contactIcon"></i>
+                <p>+ 01 234 567 89</p>
+              </li>
+              <li class="contactList"><i class="fas fa-envelope mt-4 fa-2x contactIcon"></i>
+                <p>abc@gmail.com</p>
+              </li>
+            </ul>
+          </div>
+          <!--Grid column-->
+        </div>
+      </section>
+      <!--Section: Contact v.2-->
+    </div>
+  </section>
+  <!-- end contact us -->
+
+  <!-- footer -->
+  <section id="footer"
+    style="background-image: linear-gradient(to bottom, #2E3192, #040636); color: white; overflow-x: hidden;">
+    <p class="text-center footerText p-3">© 2022 Unitech Label & Tag. All rights reserved. </p>
+  </section>
+  <!-- end footer -->
+
+  <!-- js -->
+  <script src="script.js"></script>
+  <!-- bootstrap js cdn -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <!-- second carousel js -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+</body>
+
+</html>
