@@ -3,14 +3,6 @@ body{
     overflow-x: hidden;
 }
 
-/* #aboutBanner{
-    background-image: url(about/1.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    height: 100vh;
-} */
-
 .aboutPageTitle{
     z-index: 1;
     position: relative;
@@ -19,6 +11,7 @@ body{
     font-weight: bold;
     font-family: 'Lora', serif;
     color: white;
+    text-shadow: 2px 2px 5px #1f2274;
 }
 
 #about{
