@@ -44,6 +44,16 @@ body{
     box-shadow: none;
 }
 
+.contactTitle{
+    z-index: 1;
+    /* position: relative; */
+    font-size: 4em;
+    font-weight: bold;
+    font-family: 'Lora', serif;
+    color: white;
+    text-shadow: 2px 2px 5px #1f2274;
+}
+
 /* #footer{
     z-index: 100;
 } */
