@@ -1,16 +1,10 @@
 body{
-    /* background-color: white; */
     overflow-x: hidden;
     background-image: linear-gradient(to bottom right,  rgb(247, 107, 205), rgb(243, 243, 137));
 }
 
-/* .aboutPageImage{
-    height: 5vh;
-} */
-
 .aboutPageTitle{
     z-index: 1;
-    /* position: relative; */
     margin-top: 20%;
     font-size: 4em;
     font-weight: bold;
@@ -46,17 +40,12 @@ body{
 
 .contactTitle{
     z-index: 1;
-    /* position: relative; */
     font-size: 4em;
     font-weight: bold;
     font-family: 'Lora', serif;
     color: white;
     text-shadow: 2px 2px 5px #1f2274;
 }
-
-/* #footer{
-    z-index: 100;
-} */
 
 .footerText{
     padding: 1% 0 1% 0;
