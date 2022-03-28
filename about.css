@@ -1,11 +1,16 @@
 body{
-    background-color: white;
+    /* background-color: white; */
     overflow-x: hidden;
+    background-image: linear-gradient(to bottom right,  rgb(247, 107, 205), rgb(243, 243, 137));
 }
+
+/* .aboutPageImage{
+    height: 5vh;
+} */
 
 .aboutPageTitle{
     z-index: 1;
-    position: relative;
+    /* position: relative; */
     margin-top: 20%;
     font-size: 4em;
     font-weight: bold;
@@ -14,9 +19,20 @@ body{
     text-shadow: 2px 2px 5px #1f2274;
 }
 
+.aboutPageText{
+    text-align: justify;
+    padding: 5%;
+}
+
+.aboutPageText h1{
+    font-size: 2em;
+    font-weight: bold;
+    font-family: 'Lora', serif;
+}
+
 #about{
     background-color: white;
-    margin-top: 50%;
+    margin-top: 18%;
 }
 
 .contact{
@@ -28,6 +44,10 @@ body{
     box-shadow: none;
 }
 
+/* #footer{
+    z-index: 100;
+} */
+
 .footerText{
-    padding: 2% 0 1% 0;
+    padding: 1% 0 1% 0;
 }
