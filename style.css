@@ -7,6 +7,21 @@ body{
     font-size: 16px;
 }
 
+.navbar-toggler{
+    width: 47px;
+    height: 34px;
+    background-color: #2E3192;
+    border:none;
+}
+
+.navbar-toggler .line{
+    width: 100%;
+    float: left;
+    height: 2px;
+    background-color: #fff;
+    margin-bottom: 5px;
+}
+
 /* navbar */
 #navbar{
     /* background-color: rgb(48, 47, 47); */
@@ -291,7 +306,7 @@ span{
        -moz-transform: translate3d(0, 0, 0);
         -ms-transform: translate3d(0, 0, 0);
          -o-transform: translate3d(0, 0, 0);
-            transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0); 
 }
 
 .slick-track

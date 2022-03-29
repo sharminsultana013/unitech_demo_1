@@ -3,6 +3,21 @@ body{
     background-image: linear-gradient(to bottom right,  rgb(247, 107, 205), rgb(243, 243, 137));
 }
 
+.navbar-toggler{
+    width: 47px;
+    height: 34px;
+    background-color: #2E3192;
+    border: none;
+}
+
+.navbar-toggler .line{
+    width: 100%;
+    float: left;
+    height: 2px;
+    background-color: #fff;
+    margin-bottom: 5px;
+}
+
 .aboutPageTitle{
     z-index: 1;
     margin-top: 20%;
