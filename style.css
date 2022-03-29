@@ -122,6 +122,21 @@ span{
     font-size: 1.5em;
 }
 
+.modalBody{
+    background-color: rgb(221, 215, 255);
+}
+
+.modalTitle{
+    font-size: 2em;
+    font-weight: bold;
+    font-family: 'Lora', serif;
+}
+
+.modalText{
+    text-align: justify;
+    padding: 2%;
+}
+
 /* services */
 .serviceTextDiv{
     position: absolute;

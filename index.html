@@ -31,7 +31,10 @@
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
           aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+          <span class="navbar-toggler-icon bg-dark" style="color: black;"></span>
+          <!-- <span class="line"></span> 
+          <span class="line"></span> 
+          <span class="line" style="margin-bottom: 0;"></span> -->
         </button>
         <div class="collapse navbar-collapse" id="navbarNav" style="margin-left: 20%;">
           <ul class="navbar-nav">
@@ -59,8 +62,18 @@
             <li class="nav-item">
               <a class="nav-link  menuItem" aria-current="page" href="#contact">Contact Us</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link  menuItem" aria-current="page" href="#">Our Profile</a>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle menuItem" href="#" id="navbarDropdown" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                Our Profiles
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item menuItem" href="https://drive.google.com/u/0/uc?id=1t6AmQA-YZKk9RbE8ACfwP_-K-92mFWub&export=download">Unitech Label</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item menuItem" href="https://drive.google.com/u/0/uc?id=15uD5bFOU2gyV5F-UCVDdZQNIp3T88IWn&export=download">Unitech Trims</a></li>
+              </ul>
             </li>
           </ul>
         </div>
@@ -117,7 +130,7 @@
     </div>
     <!-- end carousel -->
   </section>
-  <!-- end banner -->  
+  <!-- end banner -->
 
   <!-- About -->
   <section id="about" style="padding: 1% 5%;">
@@ -161,7 +174,8 @@
                 content. This content is a little bit longer.</p>
             </div>
             <div class="card-footer">
-              <button class="btn productBtn" type="button">View Details</button>
+              <button class="btn productBtn" data-bs-toggle="modal" data-bs-target="#exampleModal" type="button">View
+                Details</button>
             </div>
           </div>
         </div>
@@ -169,12 +183,13 @@
           <div class="card h-100 p-3">
             <img src="products/2.jpg" width="100%" height="320vh" class="card-img-top" alt="">
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
+              <h5 class="card-title" style="font-family: 'Lora', serif;">Card title</h5>
               <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
                 content. This content is a little bit longer.</p>
             </div>
             <div class="card-footer">
-              <button class="btn productBtn" type="button">View Details</button>
+              <button class="btn productBtn" data-bs-toggle="modal" data-bs-target="#exampleModal" type="button">View
+                Details</button>
             </div>
           </div>
         </div>
@@ -187,7 +202,8 @@
                 content. This content is a little bit longer.</p>
             </div>
             <div class="card-footer">
-              <button class="btn productBtn" type="button">View Details</button>
+              <button class="btn productBtn" data-bs-toggle="modal" data-bs-target="#exampleModal" type="button">View
+                Details</button>
             </div>
           </div>
         </div>
@@ -200,7 +216,8 @@
                 content. This content is a little bit longer.</p>
             </div>
             <div class="card-footer">
-              <button class="btn productBtn" type="button">View Details</button>
+              <button class="btn productBtn" data-bs-toggle="modal" data-bs-target="#exampleModal" type="button">View
+                Details</button>
             </div>
           </div>
         </div>
@@ -213,7 +230,8 @@
                 content. This content is a little bit longer.</p>
             </div>
             <div class="card-footer">
-              <button class="btn productBtn" type="button">View Details</button>
+              <button class="btn productBtn" data-bs-toggle="modal" data-bs-target="#exampleModal" type="button">View
+                Details</button>
             </div>
           </div>
         </div>
@@ -226,7 +244,8 @@
                 content. This content is a little bit longer.</p>
             </div>
             <div class="card-footer">
-              <button class="btn productBtn" type="button">View Details</button>
+              <button class="btn productBtn" data-bs-toggle="modal" data-bs-target="#exampleModal" type="button">View
+                Details</button>
             </div>
           </div>
         </div>
@@ -424,7 +443,7 @@
                 <!--Grid column-->
                 <div class="col-md-6">
                   <div class="form-floating mb-3">
-                    <input type="name" class="form-control" id="floatingInput" placeholder="name@example.com">
+                    <input type="name" class="form-control" id="floatingInput" placeholder="Name">
                     <label class="contactText" for="floatingInput">Name</label>
                   </div>
                 </div>
@@ -433,7 +452,7 @@
                 <!--Grid column-->
                 <div class="col-md-6">
                   <div class="form-floating mb-3">
-                    <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                    <input type="email" class="form-control" id="floatingInput" placeholder="Email Address">
                     <label class="contactText" for="floatingInput">Email address</label>
                   </div>
                 </div>
@@ -445,7 +464,7 @@
               <div class="row">
                 <div class="col-md-12">
                   <div class="form-floating mb-3">
-                    <input type="subject" class="form-control" id="floatingInput" placeholder="name@example.com">
+                    <input type="subject" class="form-control" id="floatingInput" placeholder="Subject">
                     <label class="contactText" for="floatingInput">Subject</label>
                   </div>
                 </div>
@@ -457,7 +476,7 @@
                 <!--Grid column-->
                 <div class="col-md-12">
                   <div class="form-floating mb-3">
-                    <input type="message" class="form-control" id="floatingInput" placeholder="name@example.com">
+                    <input type="message" class="form-control" id="floatingInput" placeholder="Your Message">
                     <label class="contactText" for="floatingInput">Your Message</label>
                   </div>
                 </div>
@@ -498,6 +517,28 @@
     <p class="text-center p-3">© 2022 Unitech Label & Tag. All rights reserved. </p>
   </section>
   <!-- end footer -->
+
+  <!-- modal -->
+  <!-- Modal -->
+  <div class="modal fade " id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content modalBody">
+        <div class="modal-header">
+          <h5 class="modal-title " id="exampleModalLabel">Card title</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body ">
+          <img src="products/6.jpg" width="100%" height="320vh" class="card-img-top" alt="">
+          <p class="modalText">This is a wider card with supporting text below as a natural lead-in to additional
+            content. This content is a little bit longer. This is a wider card with supporting text below as a natural
+            lead-in to additional
+            content. This content is a little bit longer. This is a wider card with supporting text below as a natural
+            lead-in to additional
+            content. This content is a little bit longer.</p>
+        </div>
+      </div>
+    </div>
+  </div>
 
   <!-- js -->
   <script src="script.js"></script>
